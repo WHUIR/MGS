@@ -22,7 +22,7 @@ Our data has been preprocessed and is available at https://www.dropbox.com/sh/h5
 Train and evaluate the model:
 
 ```sh
-python main.py --dataset diginetica
+python main.py --dataset Tmall
 ```
 
 The sequence length of Diginetica dataset is relatively long. You can also train the model by utilizing 2 GPUs:
