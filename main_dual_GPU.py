@@ -18,7 +18,7 @@ def init_seed(seed=None):
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', default='30music', help='diginetica/30music/Tmall/')
 parser.add_argument('--hiddenSize', type=int, default=100)
-parser.add_argument('--epoch', type=int, default=16)
+parser.add_argument('--epoch', type=int, default=15)
 parser.add_argument('--activate', type=str, default='relu')
 parser.add_argument('--phi', type=float, default=2.0)
 parser.add_argument('--mu', type=float, default=0.01, help='A coefficient to control the impact of the gate mechanism.')
@@ -99,6 +99,7 @@ def main():
     best_result = [0, 0]
     best_epoch = [0, 0]
     bad_counter = 0
+    opt.epoch += 1
 
     for epoch in range(opt.epoch):
         print('-------------------------------------------------------')
