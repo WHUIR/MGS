@@ -33,3 +33,31 @@ python main_dual_GPU.py --dataset diginetica
 
 ## Citation
 
+```
+@inproceedings{DBLP:conf/sigir/LaiMZLWS22,
+  author    = {Siqi Lai and
+               Erli Meng and
+               Fan Zhang and
+               Chenliang Li and
+               Bin Wang and
+               Aixin Sun},
+  editor    = {Enrique Amig{\'{o}} and
+               Pablo Castells and
+               Julio Gonzalo and
+               Ben Carterette and
+               J. Shane Culpepper and
+               Gabriella Kazai},
+  title     = {An Attribute-Driven Mirror Graph Network for Session-based Recommendation},
+  booktitle = {{SIGIR} '22: The 45th International {ACM} {SIGIR} Conference on Research
+               and Development in Information Retrieval, Madrid, Spain, July 11 -
+               15, 2022},
+  pages     = {1674--1683},
+  publisher = {{ACM}},
+  year      = {2022},
+  url       = {https://doi.org/10.1145/3477495.3531935},
+  doi       = {10.1145/3477495.3531935},
+  timestamp = {Fri, 08 Jul 2022 17:25:07 +0200},
+  biburl    = {https://dblp.org/rec/conf/sigir/LaiMZLWS22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```

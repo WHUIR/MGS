@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="adminn@172.24.140.57:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="admin8@172.24.129.101:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="admin8@172.24.129.101:22 password">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/admin8/lsq/GCE_modified" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
