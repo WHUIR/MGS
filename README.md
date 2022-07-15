@@ -1,7 +1,7 @@
 # MGS
 
 ## Code
-This is the official implementation of *An Attribute-Driven Mirror Graph Network for Session-based Recommendation* from SIGIR 2022.
+This is the official implementation of [*An Attribute-Driven Mirror Graph Network for Session-based Recommendation*](https://doi.org/10.1145/3477495.3531935) from SIGIR 2022.
 
 ## Environment
 * Python=3.7
